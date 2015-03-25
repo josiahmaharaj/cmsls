@@ -1,7 +1,7 @@
 # Site settings
 title: C.M.S.L.S
 email: ncharran@ymail.com
-description: Official Website of C & M Site Logistic Services
+description: "Official Website of C & M Site Logistic Services"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://cmsls.co" # the base hostname & protocol for your site
 mission: "To be Effective, Efficient, Traceable and Accountable to our Clients." 
