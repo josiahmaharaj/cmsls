@@ -1,0 +1,66 @@
+//	Typography
+
+html
+  margin: 0
+  padding: 0
+
+
+p
+  margin: 0 0 20px 0
+
+em
+  font-style: italic
+
+strong
+  font-weight: bold
+
+hr
+  border: solid #ddd
+  border-width: 1px 0 0
+  clear: both
+  margin: 10px 0 30px
+  height: 0
+
+
+
+// Links
+
+a
+  color: #fff
+  text-decoration: none
+  outline: 0
+  
+a:hover, a:focus
+  color: lighten($link-color, 20%)
+
+
+
+// Selection colors (easy to forget)
+
+::selection
+  background: $accent-color
+  
+::-moz-selection
+  background: $accent-color
+  
+img::selection
+  background: transparent
+  
+img::-moz-selection
+  background: transparent
+  
+body
+  -webkit-tap-highlight-color: $accent-color
+
+
+
+// Basic Styles
+
+body
+  background: #fff
+  font-size: 14px
+  line-height: 1.6
+  font-family: 'Open Sans' sans-serif
+  color: $text-color
+  -webkit-font-smoothing: antialiased
+  -webkit-text-size-adjust: 100%

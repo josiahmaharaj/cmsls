@@ -1,0 +1,123 @@
+html,body
+	height: 100%
+
+header
+	background: url('/assets/img/bkg.jpg') no-repeat center center fixed
+	-webkit-background-size: cover
+	-moz-background-size: cover
+	-o-background-size: cover
+	background-size: cover
+	width: 100%
+	height: 100vh
+	margin: 0
+	padding: 0
+
+	.logo
+		+size(600px)
+		margin: 0px auto
+		position: relative
+
+		img
+			+size(300px)
+			position: absolute
+			top: 200px
+			left: 150px
+
+	.navcontainer
+		position: relative
+		padding-bottom: 30px
+
+		.nav
+			list-style: none
+			text-align: center
+			margin-bottom: 30px
+			padding: 0
+
+
+			li
+				display: inline
+				padding-left: 50px
+				padding-right: 50px
+
+				a
+					display: inline-block
+					padding: 10px
+					font-size: 24px
+					text-transform: uppercase
+
+
+@media screen and (max-width: 850px)
+	header
+		background: url('/assets/img/bkg.jpg') no-repeat 
+
+		.logo
+			+size(400px)
+			margin: 0px auto
+			position: relative
+			padding-bottom: 200px
+
+			img
+				+size(200px)
+				position: absolute
+				top: 200px
+				left: 100px
+
+		.navcontainer
+			position: static
+
+			.nav
+				list-style: none
+				text-align: center
+				margin: 0
+				padding: 0
+				bottom: 0
+
+
+				li
+					display: inline
+					padding-left: 25px
+					padding-right: 25px
+
+					a
+						display: inline-block
+						padding: 10px
+						font-size: 20px
+						text-transform: uppercase
+
+@media screen and (max-width: 400px)
+	header
+		background: url('/assets/img/bkg.jpg') no-repeat 
+
+		.logo
+			+size(300px)
+			margin: 0px auto
+			position: relative
+			padding-bottom: 75px
+
+			img
+				+size(150px)
+				position: absolute
+				top: 100px
+				left: 75px
+
+		.navcontainer
+			position: static
+
+			.nav
+				list-style: none
+				text-align: center
+				margin: 0
+				padding: 0
+				bottom: 0
+
+
+				li
+					display: block
+					padding-left: 25px
+					padding-right: 25px
+
+					a
+						display: inline-block
+						padding: 10px
+						font-size: 20px
+						text-transform: uppercase

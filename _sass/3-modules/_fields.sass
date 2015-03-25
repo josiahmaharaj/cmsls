@@ -1,0 +1,122 @@
+.fields
+	padding-top: 100px
+	padding-bottom: 100px
+	background-color: $primary
+
+	h3
+		font-size: 22px
+		text-align: center
+	.fieldscontainer
+		width: 1050px
+		margin: 0 auto
+		padding-top: 50px
+		+clearfix
+
+		.photo
+			+size(200px)
+			position: relative
+			margin: 0 auto
+
+			img
+				+size(100px)
+				position: absolute
+
+	.fields1
+		float: left
+		width: 450px
+		padding-right: 50px
+		border-right: 1px solid gray
+		img
+			height: 250px
+			width: 300px
+
+		p
+			text-align: left
+
+	.fields2
+		width: 450px
+		padding-left: 50px
+		float: left
+		border-left: 1px solid gray
+		margin-left: -1px
+
+		p
+			text-align: right
+
+	@media screen and (max-width: 1060px)
+		.fieldscontainer
+			width: auto
+			margin: 0 auto
+			padding-top: 50px
+			padding-left: 100px
+			padding-right: 100px
+
+			.fields1
+				width: auto
+				border-right: 0px
+				border-bottom: 1px solid gray
+				padding: 0
+				padding-bottom: 20px
+				.sectionimage
+					height: 0px
+					width: 400px
+					margin: 0px auto
+					position: relative
+					padding-bottom: 200px
+
+					img
+						+size(200px)
+						position: absolute
+						left: 100px
+				p
+					text-align: center
+
+			.fields2
+				width: auto
+				border-left: 0px
+				padding: 0
+				padding-top: 10px
+				p
+					text-align: center
+
+	@media screen and (max-width: 650px)
+		.fieldscontainer
+			width: auto
+			margin: 0 auto
+			padding-top: 50px
+			padding-left: 75px
+			padding-right: 75px
+
+			.fields1
+				width: auto
+				border-right: 0px
+				border-bottom: 1px solid gray
+				padding: 0
+				padding-bottom: 20px
+				.sectionimage
+					height: 0px
+					width: 400px
+					margin: 0px auto
+					position: relative
+					padding-bottom: 200px
+
+					img
+						+size(200px)
+						position: absolute
+						left: 100px
+					p
+						text-align: center
+
+			.fields2
+				width: auto
+				border-left: 0px
+				padding: 0
+				padding-top: 10px
+				p
+					text-align: center
+
+	@media screen and (max-width: 400px)
+		.fieldscontainer
+			padding-left: 25px
+			padding-right: 25px
+				
